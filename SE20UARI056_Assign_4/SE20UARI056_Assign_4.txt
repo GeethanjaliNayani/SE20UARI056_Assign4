@@ -1,0 +1,16 @@
+The results are as follows, waiting time and turn around time respectively.
+FCFS: ([0, 20, 35, 70], [30, 40, 75, 85])
+SJF: ([55, 25, 70, 0], [85, 45, 110, 15])
+PS: ([45, 0, 60, 10], [75, 20, 100, 25])
+
+averaging these values independently:
+FCFS_WT: 31.25
+FCFS_TAT: 57.5
+
+SJF_WT: 37.5
+SJF_TAT: 63.75
+
+PS_WT: 28.75
+PS_TAT: 55.0
+
+Comparing average waiting time and turn around time for different algorithms, it is evident that PS(Priority Schedulign) algorithm's waitng and turn around times are low hence performs well for the given question.
